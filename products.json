@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ts1",
+    "name": "Classic White Tee",
+    "price": 19.99,
+    "description": "Comfortable cotton tee, unisex.",
+    "image": "https://via.placeholder.com/600x600.png?text=White+T-Shirt"
+  },
+  {
+    "id": "ts2",
+    "name": "Pistachio Tee",
+    "price": 22.5,
+    "description": "Soft color tee in pistachio.",
+    "image": "https://via.placeholder.com/600x600.png?text=Pistachio+T-Shirt"
+  },
+  {
+    "id": "ts3",
+    "name": "Graphic Tee",
+    "price": 25.0,
+    "description": "Printed front graphic.",
+    "image": "https://via.placeholder.com/600x600.png?text=Graphic+T-Shirt"
+  }
+]
