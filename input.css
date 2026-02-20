@@ -1,0 +1,50 @@
+:root {
+    --verde-pistacho: #9BCF9B;
+    --verde-pistacho-dark: #86B986;
+    --rosa-pastel: #F6C1D1;
+    --rosa-pastel-dark: #E8A8BC;
+    --texto: #2E2E2E;
+    --blanco: #ffffff;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: var(--texto);
+    background-color: #fff;
+}
+
+/* BOTONES */
+.btn {
+    padding: 0.75rem 1.6rem;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.btn--primary {
+    background: var(--rosa-pastel);
+    color: var(--texto);
+}
+
+.btn--primary:hover {
+    background: var(--rosa-pastel-dark);
+}
+
+.btn--secondary {
+    background: var(--verde-pistacho);
+    color: var(--texto);
+}
+
+.btn--secondary:hover {
+    background: var(--verde-pistacho-dark);
+}
